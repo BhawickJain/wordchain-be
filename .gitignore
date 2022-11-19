@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.heroku #TODO: still needed?
+.vscode/last.sql
+.vscode/settings.json
+
+# docker
+.devcontainer/
+docker-compose.yml
+Dockerfile.dev

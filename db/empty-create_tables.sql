@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS locations;
+
+CREATE TABLE locations(
+	id SERIAL,
+	long FLOAT NOT NULL,
+	lat FLOAT NOT NULL,
+	PRIMARY KEY (id)
+);
